@@ -1,0 +1,6 @@
+Started on Jan 27, 2019 2:14:13 AM
+Started by event from 172.18.0.2 ⇒ http://jenkins:8080/github-webhook/ on Sun Jan 27 02:14:13 UTC 2019
+No workspace is available, so can’t check for updates.
+Scheduling a new build to get a workspace. (nonexisting_workspace)
+Done. Took 4 ms
+Changes found

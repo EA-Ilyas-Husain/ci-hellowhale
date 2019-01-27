@@ -1,0 +1,38 @@
+Started by GitHub push by EA-Ilyas-Husain
+Building in workspace /var/jenkins_home/jobs/ci-hellowhale/workspace
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] Done
+Cloning the remote Git repository
+Cloning repository https://github.com/EA-Ilyas-Husain/ci-hellowhale.git
+ > git init /var/jenkins_home/jobs/ci-hellowhale/workspace # timeout=10
+Fetching upstream changes from https://github.com/EA-Ilyas-Husain/ci-hellowhale.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/EA-Ilyas-Husain/ci-hellowhale.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/EA-Ilyas-Husain/ci-hellowhale.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/EA-Ilyas-Husain/ci-hellowhale.git # timeout=10
+Fetching upstream changes from https://github.com/EA-Ilyas-Husain/ci-hellowhale.git
+ > git fetch --tags --progress https://github.com/EA-Ilyas-Husain/ci-hellowhale.git +refs/heads/*:refs/remotes/origin/*
+Seen branch in repository origin/master
+Seen 1 remote branch
+ > git show-ref --tags -d # timeout=10
+Checking out Revision 6664f09c56d7cb9b39248cb476afb078da4fa03b (origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 6664f09c56d7cb9b39248cb476afb078da4fa03b
+ > git branch -a -v --no-abbrev # timeout=10
+ > git checkout -b master 6664f09c56d7cb9b39248cb476afb078da4fa03b
+Commit message: "update"
+First time build. Skipping changelog.
+[workspace] $ /bin/bash /tmp/jenkins7558712169839190200.sh
+unable to prepare context: unable to evaluate symlinks in Dockerfile path: lstat /var/jenkins_home/jobs/ci-hellowhale/workspace/Dockerfile: no such file or directory
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+The push refers to a repository [docker.io/ilyashusain/hellowhale]
+An image does not exist locally with the tag: docker.io/ilyashusain/hellowhale
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
